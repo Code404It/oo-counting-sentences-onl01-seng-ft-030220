@@ -1,5 +1,5 @@
 require 'pry'
-lass String
+class String
   def sentence?
     if self.end_with?(".")
       true
